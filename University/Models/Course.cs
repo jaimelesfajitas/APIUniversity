@@ -9,4 +9,11 @@ public class Course
 
     public Course() { }
 
+    public Course(CourseDTO courseDTO)
+    {
+        Id = courseDTO.Id;
+        Title = courseDTO.Title;
+        Credits = courseDTO.Credits;
+    }
+
 }
